@@ -16,7 +16,7 @@ Your application can be classified as an installed application, which is neither
 
 Then you will see Client ID and Client secret under "Client ID for native application". You can copy these two to replace "Enter ..." in __client_secrets.json__ in the directory __resources__ in [here](../code/youtube).
 
-#### Log-in and Log-out
+#### Login and Logout
 You can use the following __Auth__ class to let your application's users log in and out using their Google accounts. The code with examples is [here](../code/youtube). You may also find its Java document [here](../doc/Auth.html).
 
 #### Libraries Required
