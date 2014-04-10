@@ -14,21 +14,18 @@ This step is going to get credentials that represent your application. There are
 
 Your application can be classified as an installed application, which is neither a web application, client-side application, nor device application. Therefore, when you go to get the credentials (client ID and client secret) by going into your project in Google -&gt; APIs &amp; auth -&gt; Credentials, then click CREATE NEW CLIENT ID and choose "Installed application". You can also consult [here](https://developers.google.com/console/help/).
 
-Then you will see Client ID and Client secret under "Client ID for native application". You can copy these two to replace "Enter ..." in __client_secrets.json__ in the directory __resources__ in [here](https://github.com/nattachart/google-api/tree/master/code/youtube/src).
+Then you will see Client ID and Client secret under "Client ID for native application". You can copy these two to replace "Enter ..." in __client_secrets.json__ in the directory __resources__ in [here](https://github.com/nattachart/google-api/tree/master/code/youtube).
 
 #### Login and Logout
 You can use the following __Auth__ class to let your application's users log in and out using their Google accounts. The code with examples is [here](https://github.com/nattachart/google-api/tree/master/code/youtube/src). You may also find its Java document [here](../code/youtube/doc/Auth.html).
 
 #### Libraries Required
 * [google-api-java-client-1.17.0-rc.zip](https://code.google.com/p/google-api-java-client/wiki/Setup#Download_Library_with_Dependencies)
-* Servlet libraries
-	* You can download and install Glassfish [here](http://www.oracle.com/technetwork/java/javaee/downloads/index.html?ssSourceSiteId=otncn)
-	* Find all javax.servlet{any thing}.jar in {glassfish folder}/glassfish/modules
-	* Include all of them into your project
+* [Servlet libraries (javax.servlet-api)](http://mvnrepository.com/artifact/javax.servlet/javax.servlet-api/3.0.1)
 
 ### Libraries Links
 * https://code.google.com/p/google-api-java-client/wiki/Setup#Download_Library_with_Dependencies
-* http://www.oracle.com/technetwork/java/javaee/downloads/index.html?ssSourceSiteId=otncn
+* http://mvnrepository.com/artifact/javax.servlet/javax.servlet-api/3.0.1
 * http://javadoc.google-http-java-client.googlecode.com/hg/1.17.0-rc/index.html?overview-summary.html
 * http://javadoc.google-api-java-client.googlecode.com/hg/1.17.0-rc/index.html
 * http://javadoc.google-oauth-java-client.googlecode.com/hg/1.17.0-rc/index.html?overview-summary.html
