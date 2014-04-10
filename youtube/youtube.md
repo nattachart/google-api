@@ -14,10 +14,10 @@ This step is going to get credentials that represent your application. There are
 
 Your application can be classified as an installed application, which is neither a web application, client-side application, nor device application. Therefore, when you go to get the credentials (client ID and client secret) by going into your project in Google -&gt; APIs &amp; auth -&gt; Credentials, then click CREATE NEW CLIENT ID and choose "Installed application". You can also consult [here](https://developers.google.com/console/help/).
 
-Then you will see Client ID and Client secret under "Client ID for native application". You can copy these two to replace "Enter ..." in __client_secrets.json__ in the directory __resources__ in [here](https://github.com/nattachart/google-api/tree/master/code/youtube).
+Then you will see Client ID and Client secret under "Client ID for native application". You can copy these two to replace "Enter ..." in __client_secrets.json__ in the directory __resources__ in [here](https://github.com/nattachart/google-api/tree/master/code/youtube/src).
 
 #### Login and Logout
-You can use the following __Auth__ class to let your application's users log in and out using their Google accounts. The code with examples is [here](https://github.com/nattachart/google-api/tree/master/code/youtube). You may also find its Java document [here](../code/youtube/doc/Auth.html).
+You can use the following __Auth__ class to let your application's users log in and out using their Google accounts. The code with examples is [here](https://github.com/nattachart/google-api/tree/master/code/youtube/src). You may also find its Java document [here](../code/youtube/doc/Auth.html).
 
 #### Libraries Required
 * [google-api-java-client-1.17.0-rc.zip](https://code.google.com/p/google-api-java-client/wiki/Setup#Download_Library_with_Dependencies)
