@@ -1,9 +1,3 @@
-## Code
+# Google APIs
 
-### Source Code
-* https://github.com/nattachart/google-api/tree/master/code/youtube/src
-	* You can download the whole package by going to Google-api and find a Download button on the right.
-
-### Javadoc
-* http://nattachart.github.io/google-api/code/youtube/doc/Auth.html
-
+This has been moved to http://nattachart.github.io/itcs208-2-2013-projects/youtube/youtube.md .
